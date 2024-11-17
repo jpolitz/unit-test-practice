@@ -22,3 +22,5 @@ configuration), you only need to repeat this command.
 ## Continuous Integration Testing
 
 Commit your work and push it to GitHub and the `Test` GitHub Action Workflow will report the results.
+
+Latest test status: [GitHub Actions](actions/workflows/ci.yml)
