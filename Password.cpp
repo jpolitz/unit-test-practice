@@ -16,7 +16,7 @@ using std::string;
 
 
 
-// VERSION A
+/* VERSION A
 bool Password::has_mixed_case(string str)
 {
   int count_lower = 0;
@@ -29,9 +29,9 @@ bool Password::has_mixed_case(string str)
   }
   return count_lower > 0 && count_lower < str.length();
 }
+*/
 
-
-/* VERSION B
+// VERSION B
 bool Password::has_mixed_case(string str)
 {
   bool found = false;
@@ -45,4 +45,4 @@ bool Password::has_mixed_case(string str)
   }
   return false;
 }
-*/
+
