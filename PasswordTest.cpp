@@ -14,8 +14,8 @@ class PasswordTest : public ::testing::Test
 		virtual void TearDown(){} //clean up after each test, (before destructor)
 };
 
-TEST(PasswordTest, simple_mixed_case)
+TEST(PasswordTest, alternating_case)
 {
 	Password my_password;
-	ASSERT_TRUE( my_password.has_mixed_case("aA") );
+	ASSERT_TRUE( my_password.has_mixed_case("PaSsWoRd") );
 }
